@@ -5,7 +5,7 @@ class  HomePage extends StatelessWidget {
   Widget build(BuildContext context){
 
     final int days =30;
-    final String name ="Codepur";
+    final String name ="Klaus Loop";
 
 
     return Scaffold(
