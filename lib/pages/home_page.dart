@@ -6,7 +6,7 @@ class  HomePage extends StatelessWidget {
   Widget build(BuildContext context){
 
     final int days =30;
-    final String name ="Klaus Loop";
+    final String name ="Klaus";
 
 
     return Scaffold(
@@ -15,7 +15,7 @@ class  HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $days days of flutter by $name"),
+          child: Text("Welcome $name"),
         ),
       ),
       drawer: MyDrawer(),
